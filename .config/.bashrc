@@ -6,9 +6,13 @@
 
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+alias ls='ls --color=auto --group-directories-first'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-# system 
+# system mainenance
 alias sdn='shutdown now'
+alias up='sudo pacman -Syu'
+
+#
+alias cfg='cd ~/.config/'
