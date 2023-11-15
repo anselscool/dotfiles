@@ -7,6 +7,10 @@
 set $mod Mod4
 
 font pango: monospace 8
+exec --no-startup-id dunst
+
+gaps inner 6
+smart_borders on
 
 # Backlight control 
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5% 
@@ -20,6 +24,7 @@ bindsym XF86AudioLowerVolume exec amixer -q sset Master 5%-
 # mute
 bindsym XF86AudioMute exec amixer sset Master toggle
 
+# audio control 
 # App shortcuts
 bindsym $mod+w exec firefox
 
