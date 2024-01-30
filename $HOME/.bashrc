@@ -12,7 +12,14 @@ PS1='[\u@\h \W]\$ '
 
 # system mainenance
 alias sdn='shutdown now'
+alias rbt='reboot'
 alias up='sudo pacman -Syu'
 
-#
+# alias
 alias cfg='cd ~/.config/'
+alias dwn='cd ~/downloads/'
+alias med='cd ~/media/'
+
+export EDITOR='vim'
+export BROWSER='firefox'
+export PATH=$PATH:/home/ansel/.spicetify

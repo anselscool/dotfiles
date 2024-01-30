@@ -4,7 +4,7 @@
 #  >  <| | | | | | |_| | | (__
 # /_/\_\_|_| |_|_|\__|_|  \___|
 
-# exec dwm &
-# exec slstatus &
-# exec i3 &
-# feh --bg-fill %
+#exec dwmblocks &
+exec dunst &
+#exec dwm
+exec bspwm
