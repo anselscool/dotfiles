@@ -10,7 +10,7 @@ super + Return
 
 # Spawn dmenu
 super + d
-  dmenu_run -fn 'Monocraft-8'
+  dmenu_run -fn 'Monocraft-8' -nb '#000000'  -sb '#1c71d8'
 
 # firefox
 super + w
@@ -18,7 +18,7 @@ super + w
 
 # lockscreen
 super + Escape
-  slock
+  betterlockscreen -l ~/media/2.jpg
 
 # Volume
 XF86Audio{Lower,Raise}Volume
@@ -37,9 +37,9 @@ XF86Audio{Next,Prev,Play}
 super + shift + {q,r}
   bspc {quit,wm -r
 
-# close
-super + q
-    bspc node -k
+# closi
+super + {q,alt + q}
+    bspc node {-k,-c} 
 
 # alternate between the tiled and monocle layout
 super + m
