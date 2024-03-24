@@ -13,10 +13,10 @@
 <p>dotfiles for my t480</p>
 
 <h2>wallpaper</h2>
-<img src="">
+<img src="/.wallpapers/voyager-bg.png">
 
 <h2>bspwm</h2>
-<img src="">
+<img src="/neofetch.png">
 
 <h2>polybar</h2>
-<img src="">
+<img src="/polybar.png">
